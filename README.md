@@ -43,3 +43,37 @@ A futuristic city at sunset, digital art
 
 Output
 An AI-generated image based on the given text prompt.
+Task-03: Markov Chain Text Generator
+Description
+
+This task implements a Markov Chain–based text generator using Google Colab.
+The program accepts user input text and generates new text based on probabilistic word transitions.
+
+Technologies Used
+
+Python
+
+Google Colab
+
+Features
+
+User input through interactive text box
+
+Button-based text generation
+
+Markov chain logic
+
+Example
+
+Input:
+
+machine learning generates text
+
+
+Output:
+
+learning generates text
+
+Conclusion
+
+Task-03 demonstrates a simple and effective use of Markov Chains for text generation, suitable for academic assignments.
