@@ -136,3 +136,59 @@ Training on larger datasets
 Improving image resolution
 Hyperparameter tuning
 Deploying the model as a web application
+# PRODIGY_GA_05
+Project Title
+Neural Style Transfer using Deep Learning
+
+Abstract
+This project implements Neural Style Transfer to blend the artistic style of one image with the content of another using deep learning. The model uses a pretrained Convolutional Neural Network to extract content and style features and optimizes a generated image to combine both representations.
+
+Objective
+To develop a deep learning model that applies artistic styles to images while preserving the original content structure.
+
+Problem Statement
+Traditional image editing tools require manual artistic effort. This project automates artistic image generation using Neural Style Transfer by leveraging feature extraction capabilities of convolutional neural networks.
+
+Tools and Technologies Used
+Python
+TensorFlow
+Keras
+NumPy
+Matplotlib
+Pillow
+Google Colab
+
+Dataset Used
+User provided images
+Content Image and Style Image uploaded manually
+
+Methodology
+Image Upload and Preprocessing
+Loading Pretrained VGG19 Model
+Extracting Content Features
+Extracting Style Features using Gram Matrix
+Defining Style Loss and Content Loss
+Optimizing Generated Image
+Producing Final Stylized Output
+
+Model Architecture
+Pretrained VGG19 Convolutional Neural Network is used as a feature extractor. Selected intermediate layers capture content and style representations which guide the optimization process.
+
+Results
+The model successfully generated stylized images by merging the structural content of the original image with the artistic patterns of the style image. Progressive optimization improved visual quality over epochs.
+
+Learning Outcomes
+Understanding Neural Style Transfer
+Working with Pretrained CNN Models
+Feature Extraction Techniques
+Loss Function Engineering
+Image Optimization using Gradient Descent
+
+Internship Acknowledgement
+This project was completed as part of my internship at Prodigy InfoTech. The experience enhanced my practical knowledge in Deep Learning and Computer Vision.
+
+Future Enhancements
+Real time style transfer
+High resolution output generation
+Multiple style blending
+Web application deployment
